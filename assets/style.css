@@ -8,8 +8,10 @@ body{
 }
 
 body{
-    color:brown;
-    text-align: center;
+  margin: 0;
+  color: #8dc57c;
+  text-align: center;
+  background-color: #04260a;
 }
 
 /* Styles for vertical and horizontal positioning */
@@ -27,6 +29,9 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+.container-inner h2 {
+  color: #f7f0f0;
+}
 
 /*********************************************
 *** CONTAINER 
@@ -35,6 +40,17 @@ body{
 /* Spacing */
 .container-inner {
     padding: 30px;
+}
+
+/* Particles js */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
 /*********************************************
