@@ -52,6 +52,27 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
+.fa-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left:0 !important;
+}
+i.fa { 
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: #8dc57c;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0 0 2px #888;
+  -webkit-box-shadow: 0 0 2px #888;
+  box-shadow: 0 0 2px #888;
+}
+i.fa:hover{
+  background-color: #f7f0f04a;
+}
 
 /*********************************************
 *** FOOTER 
