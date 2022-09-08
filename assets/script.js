@@ -109,7 +109,7 @@ $(document).ready(function(){
                   "particles_nb": 3
                 },
                 "remove": {
-                  "particles_nb": 20
+                  "particles_nb": 2
                 }
               }
             },
