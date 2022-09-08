@@ -54,9 +54,9 @@ $(document).ready(function(){
               },
               "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 170,
                 "color": "#f7f0f0",
-                "opacity": 0.35,
+                "opacity": 0.25,
                 "width": 1
               },
               "move": {
@@ -106,10 +106,10 @@ $(document).ready(function(){
                   "duration": 0.4
                 },
                 "push": {
-                  "particles_nb": 4
+                  "particles_nb": 3
                 },
                 "remove": {
-                  "particles_nb": 2
+                  "particles_nb": 20
                 }
               }
             },
