@@ -12,15 +12,22 @@ body{
   color: #8dc57c;
   text-align: center;
   background-color: #04260a;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 h1, h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
 }
 
 /* Styles for vertical and horizontal positioning */
